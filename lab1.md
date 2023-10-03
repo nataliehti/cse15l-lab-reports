@@ -5,11 +5,11 @@ Section: Tuesday, 10-11:50am B270
 
 ## Using the command `cd`
 
-![cd1](cse15l-lab1-image1.1.png)
 1. Without arguments, `cd` outputs nothing. `cd` is used to change directories, so without any arguments, nothing happens.
-
+   ![cd1](cse15l-lab1-image1.1.png)
+2. 
 ![cd2](cse15l-lab1-image1.2.png)
-2. With a directory argument, `cd` adds the directory to the command prompt, meaning future commands should be given within the directory.
+3. With a directory argument, `cd` adds the directory to the command prompt, meaning future commands should be given within the directory.
 
 ![cd3](cse15l-lab1-image1.3.png)
 3. With a file argument, an error is returned because the file is not a directory. `cd` is for directories and will not work on files.
