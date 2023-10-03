@@ -17,6 +17,7 @@ With a directory argument, `cd` adds the directory to the command prompt, meanin
 With a file argument, an error is returned because the file is not a directory. `cd` is for directories and will not work on files.
 
 
+ 
 ## Using the command `ls`
 
 ![ls1](cse15l-lab1-image2.1.png)  
@@ -29,6 +30,7 @@ With a directory, `ls` outputs all the file names in the directory.
 With a file, `ls` re-outputs the file path. Because Hello.java is just a file, `ls` relists the argument. 
 
 
+  
 ## Using the command `cat`
 
 ![cat1](cse15l-lab1-image3.1.png)  
