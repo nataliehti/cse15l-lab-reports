@@ -1,3 +1,5 @@
+<font size = "14">
+
 # CSE 15L - Lab Report 1
 Natalie Ti (A17510793)
 Section: Tuesday, 10-11:50am B270
