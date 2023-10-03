@@ -2,7 +2,9 @@
 Natalie Ti (A17510793)
 Section: Tuesday, 10-11:50am B270
 
+
 ## Using the command `cd`
+
 ![cd1](cse15l-lab1-image1.1.png)
 1. Without arguments, `cd` outputs nothing. `cd` is used to change directories, so without any arguments, nothing happens.
 
@@ -14,6 +16,7 @@ Section: Tuesday, 10-11:50am B270
 
 
 ## Using the command `ls`
+
 ![ls1](cse15l-lab1-image2.1.png)
 1. Without arguments, `ls` outputs all the file names in the workspace -- `ls` stands for "list arguments."
 
@@ -24,6 +27,7 @@ Section: Tuesday, 10-11:50am B270
 3. With a file, `ls` re-outputs the file path. Because Hello.java is just a file, `ls` relists the argument. 
 
 ## Using the command `cat`
+
 ![cat1](cse15l-lab1-image3.1.png)
 1. Without arguments, `cat` changes the input method. Whatever text the user puts into terminal, is returned back.
 
