@@ -6,9 +6,11 @@ Section: Tuesday, 10-11:50am B270
 ## Using the command `cd`
 
 1. Without arguments, `cd` outputs nothing. `cd` is used to change directories, so without any arguments, nothing happens.  
-   ![cd1](cse15l-lab1-image1.1.png)  
+   ![cd1](cse15l-lab1-image1.1.png)
+   
 2. With a directory argument, `cd` adds the directory to the command prompt, meaning future commands should be given within the directory.  
-   ![cd2](cse15l-lab1-image1.2.png)  
+   ![cd2](cse15l-lab1-image1.2.png)
+   
 3. With a file argument, an error is returned because the file is not a directory. `cd` is for directories and will not work on files.  
   ![cd3](cse15l-lab1-image1.3.png)
 
@@ -22,7 +24,7 @@ Section: Tuesday, 10-11:50am B270
 2. With a directory, `ls` outputs all the file names in the directory.  
    ![ls2](cse15l-lab1-image2.2.png)  
   
-4. With a file, `ls` re-outputs the file path. Because Hello.java is just a file, `ls` relists the argument.  
+3. With a file, `ls` re-outputs the file path. Because Hello.java is just a file, `ls` relists the argument.  
    ![ls3](cse15l-lab1-image2.3.png)
 
 
