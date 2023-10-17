@@ -28,3 +28,4 @@ Section: Tuesday, 10-11:50am B270
 
   
 ## Part 3
+I did not know how to start a local server or that you could change pages in real time with the url. While doing the code for StringServer, I also learned how to use the function String.format() which I had previously never used. I also learned new commands: mkdir, scp, and ssh. 
