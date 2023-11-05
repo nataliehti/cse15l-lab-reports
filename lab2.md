@@ -4,6 +4,9 @@ Section: Tuesday, 10-11:50am B270
 
 
 ## Part 1
+Code:
+![cd1](cse15l-lab2-image6.png)
+
 Example 1:
 
 ![cd1](cse15l-lab2-image1.png)
@@ -21,9 +24,9 @@ Example 2:
  
 ## Part 2 
 
-1. ![ls1](cse15l-lab2-image3.png)  
+1. ![ls1](cse15l-lab2-image7.png)  
      
-2. ![ls1](cse15l-lab2-image4.png)   
+2. ![ls1](cse15l-lab2-image8.png)   
   
 3. ![ls1](cse15l-lab2-image5.png)  
 
