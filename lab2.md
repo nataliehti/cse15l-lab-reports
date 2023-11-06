@@ -5,7 +5,7 @@ Section: Tuesday, 10-11:50am B270
 
 ## Part 1
 Code:
-![cd1](cse15l-lab2-image6.png)
+![cd1](cse15l-lab2-image9.png)
 
 Example 1:
 
