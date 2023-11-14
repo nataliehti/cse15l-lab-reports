@@ -13,24 +13,28 @@ Keys pressed: ``git clone git@github.com:nataliehti/lab7.git``
 ![i1](cse15l-lab4-image2.png)
 
 3. Run the tests to show that they fail
-Keys pressed:
-``cd lab7
+Keys pressed:  
+``cd lab
 bash test.sh``
 ![i1](cse15l-lab4-image3.png)
 
 5. Edit the code
-Keys pressed:
-``vim ListExamples.java
-: 44 <enter> e r 2 <esc> : wq``
+Keys pressed:  
+``
+vim ListExamples.java  
+: 44 <enter> e r 2 <esc> : wq
+``
 ![i1](cse15l-lab4-image4.png)
 
-6. Run the tests again to show that they pass 
+7. Run the tests again to show that they pass 
 Keys pressed: ``bash test.sh``
 ![i1](cse15l-lab4-image5.png)
 
 6. Commit and push changes 
-Keys pressed:
-``git add .
-git commit -m "index1 changed to index2"
-git push``
+Keys pressed:  
+``
+git add .  
+git commit -m "index1 changed to index2"  
+git push
+``
 ![i1](cse15l-lab4-image6.png)
