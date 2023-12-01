@@ -3,7 +3,7 @@ Natalie Ti (A17510793)
 Section: Tuesday, 10-11:50am B270
 
 
-## Part 1
+## Part 1 - Debugging Scenario
 ### Student post:  
 ![i1](cse15l-lab5-image1.png)  
 I'm having issues with the filter method of ListExamples. I am getting an index out of bound error which I think could indicate that my result list size is wrong. I think my conditional is correctly checking if the list item is the indicated string so I'm not sure how to go about solving this issue.  
