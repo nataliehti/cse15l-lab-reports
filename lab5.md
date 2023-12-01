@@ -4,22 +4,24 @@ Section: Tuesday, 10-11:50am B270
 
 
 ## Part 1
-###Student post:
-![i1](cse15l-lab5-image1.png)
-I'm having issues with the filter method of ListExamples. I am getting an index out of bound error which I think could indicate that my result list size is wrong. I think my conditional is correctly checking if the list item is the indicated string so I'm not sure how to go about solving this issue.
+### Student post:  
+![i1](cse15l-lab5-image1.png)  
+I'm having issues with the filter method of ListExamples. I am getting an index out of bound error which I think could indicate that my result list size is wrong. I think my conditional is correctly checking if the list item is the indicated string so I'm not sure how to go about solving this issue.  
 
-###TA reply:
+### TA reply:  
 To double check that your code is correctly filtering the input list, try adding a print line at every iteration to see what is being added to your result list. Maybe also try printing the index number to see if the order of the elements is wrong too. This might clue as to what the error could be: either you are not filtering the input list correctly or there is a problem with adding them to the result list.
 
-###Student reply:
-![i1](cse15l-lab5-image2.png)
-I tried it and realized that I was adding the elements to the list wrong. I noticed this when I saw the index numbers skipped in the print lines. I was adding them at the index of the initial list, but that would be wrong because the list sizes can be different after filtering out the wrong strings. Thank you!
+### Student reply:  
+![i1](cse15l-lab5-image2.png)  
+I tried it and realized that I was adding the elements to the list wrong. I noticed this when I saw the index numbers skipped in the print lines. I was adding them at the index of the initial list, but that would be wrong because the list sizes can be different after filtering out the wrong strings. Thank you!  
 
-###Setup information:
+### Setup information:  
 
-Repository for the code: https://github.com/nataliehti/labreport5
+Repository for the code: https://github.com/nataliehti/labreport5  
 File and directory structure:  
-![i1](cse15l-lab5-image3.png)
+![i1](cse15l-lab5-image3.png)  
+
+Files:
 
 test.sh -- for running the files  
 ```
@@ -124,7 +126,7 @@ class ListExamples {
 }
 ```
 
-Command line:
+Command line:  
 ![i1](cse15l-lab5-image4.png)  
 
 
@@ -156,3 +158,5 @@ class ListExamples {
 }
 ```
 
+## Part 2 - Reflection
+I didn't know that files could be edited from the command line. vim has shown to be a very useful tool for making edits quickly. I also learned about a lot of new commands for viewing file information, like grep to find the number of lines or finding a specific expression. It seems useful for looking for a specific file from a large directory of them. 
