@@ -16,8 +16,8 @@ Keys pressed:
 
 5. Run the tests to show that they fail  
 Keys pressed:  
-``cd lab7`` - changes directory to lab7   
-``bash test.sh`` - compiles and runs ListExamples and ListExamplesTests, output shows that Junit tests fail  
+``cd lab7`` changes directory to lab7   
+``bash test.sh`` compiles and runs ListExamples and ListExamplesTests, output shows that Junit tests fail  
 ![i1](cse15l-lab4-image3.png)
 
 6. Edit the code  
@@ -32,12 +32,12 @@ Keys pressed:
 ![i1](cse15l-lab4-image4.png)
 
 8. Run the tests again to show that they pass  
-Keys pressed: ``bash test.sh``- runs tests, output shows that they pass   
+Keys pressed: ``bash test.sh`` runs tests, output shows that they pass   
 ![i1](cse15l-lab4-image5.png)
 
 9. Commit and push changes  
 Keys pressed:  
-``git add .`` - adds changes  
-``git commit -m "index1 changed to index2"`` - creates commit  
-``git push`` - pushes changes  
+``git add .`` adds changes  
+``git commit -m "index1 changed to index2"`` creates commit  
+``git push`` pushes changes  
 ![i1](cse15l-lab4-image6.png)
