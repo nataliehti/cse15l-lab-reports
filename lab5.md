@@ -11,10 +11,13 @@ I'm having issues with the filter method of ListExamples. I am getting an index 
 ### TA reply:  
 To double check that your code is correctly filtering the input list, try adding a print line at every iteration to see what is being added to your result list. Maybe also try printing the index number to see if the order of the elements is wrong too. This might clue as to what the error could be: either you are not filtering the input list correctly or there is a problem with adding them to the result list.
 
+<div style="page-break-after: always"></div>
+
 ### Student reply:  
 ![i1](cse15l-lab5-image2.png)  
 I tried it and realized that I was adding the elements to the list wrong. I noticed this when I saw the index numbers skipped in the print lines. I was adding them at the index of the initial list, but that would be wrong because the list sizes can be different after filtering out the wrong strings. Thank you!  
 
+<div style="page-break-after: always"></div>
 ### Setup information:  
 
 Repository for the code: https://github.com/nataliehti/labreport5  
@@ -28,7 +31,9 @@ test.sh -- for running the files
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
-  
+
+<div style="page-break-after: always"></div>
+
 ListExamplesTests.java -- contains the Junit tests  
 ```
 import static org.junit.Assert.*;
@@ -76,6 +81,8 @@ public class ListExamplesTests {
 }
 ```
   
+<div style="page-break-after: always"></div> 
+
 The initial code for ListExamples.java (faulty)  
 ```
 import java.util.ArrayList;
